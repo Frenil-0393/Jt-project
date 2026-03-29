@@ -80,6 +80,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- H2 in-memory database for unit tests (MySQL is used in production) -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
